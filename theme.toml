@@ -1,10 +1,10 @@
 #:schema https://json.schemastore.org/hugo-theme.json
-name = 'belos'
+name = "belos"
 license = "MIT"
-licenselink = 'https://github.com/Dzmuh/belos/blob/master/LICENSE'
+licenselink = 'https://github.com/dzmuh/belos/blob/master/LICENSE'
 # TODO: Описание нужно доработать. Нужно добавить для каких целей используется эта тема.
 description = 'βέλος theme for Hugo'
-homepage = "https://github.com/Dzmuh/belos"
+homepage = "https://github.com/dzmuh/belos"
 # TODO: Демо сайт нужно развернуть. Он может быть и тут, пример https://hugo-coder.netlify.app/
 demosite = 'https://dzmuh.github.io/belos'
 # TODO: Теги проставить
@@ -20,6 +20,8 @@ features = [
   "favicon",
   "multilingual"
 ]
+min_version = "0.136.0"
+
 [author]
-  name = "Ilya Fralkou"
-  homepage = "https://www.dzmuh.com/"
+name = "Ilya Fralkou"
+homepage = "https://www.dzmuh.com/"

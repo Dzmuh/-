@@ -1,4 +1,5 @@
 #:schema taplo://taplo.toml
+# https://taplo.tamasfe.dev/configuration/file
 include = [".taplo.toml", "hugo.toml", "theme.toml"]
 
 [schema]
@@ -8,6 +9,11 @@ path = "https://json.schemastore.org/hugo.json"
 # Formatter options: https://taplo.tamasfe.dev/configuration/formatter-options.html
 align_comments = false
 array_auto_collapse = false
+
+[[rule]]
+include = ["hugo.toml"]
+[rule.schema]
+path = "https://json.schemastore.org/hugo.json"
 
 [[rule]]
 include = ["theme.toml"]
