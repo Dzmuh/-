@@ -1,7 +1,7 @@
 ---
-title: Belos
+title: "Belos"
 date: 2023-01-01T08:00:00-07:00
-description: A Hugo theme for ...
+description: "A Hugo theme for ..."
 ---
 
 Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
